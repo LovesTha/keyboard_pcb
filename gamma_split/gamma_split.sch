@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:gamma_split-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -445,7 +446,7 @@ F 1 "10k" V 12000 4950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 11930 4950 50  0001 C CNN
 F 3 "" H 12000 4950 50  0001 C CNN
 	1    12000 4950
-	0    1    1    0   
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R7
@@ -1061,12 +1062,12 @@ $EndComp
 $Comp
 L Device:C BT2
 U 1 1 5A1DEA6A
-P 3150 4575
-F 0 "BT2" H 3250 4675 50  0000 L CNN
-F 1 "Battery_Cell" H 3250 4575 50  0000 L CNN
-F 2 "Conn_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" V 3150 4635 50  0001 C CNN
-F 3 "" V 3150 4635 50  0001 C CNN
-	1    3150 4575
+P 3150 4525
+F 0 "BT2" H 3250 4625 50  0000 L CNN
+F 1 "Battery_Cell" H 3250 4525 50  0000 L CNN
+F 2 "Conn_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" V 3150 4585 50  0001 C CNN
+F 3 "" V 3150 4585 50  0001 C CNN
+	1    3150 4525
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2726,8 +2727,6 @@ Wire Wire Line
 	2650 5050 3100 5050
 Connection ~ 2650 5050
 Wire Wire Line
-	3150 4375 3150 4275
-Wire Wire Line
 	6925 4400 6925 4250
 Wire Wire Line
 	6925 4050 6925 3900
@@ -3026,7 +3025,7 @@ Wire Wire Line
 Wire Wire Line
 	14900 7200 14900 7500
 Wire Wire Line
-	2650 4375 3150 4375
+	2650 4375 2875 4375
 Wire Wire Line
 	6775 7975 6775 9825
 Wire Wire Line
@@ -3049,4 +3048,10 @@ Wire Wire Line
 	7175 9600 10150 9600
 Wire Wire Line
 	7175 10125 10150 10125
+Wire Wire Line
+	3150 4375 3150 4275
+Connection ~ 3150 4375
+Connection ~ 2875 4375
+Wire Wire Line
+	2875 4375 3150 4375
 $EndSCHEMATC

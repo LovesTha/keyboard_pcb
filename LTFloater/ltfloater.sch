@@ -1606,7 +1606,7 @@ F 3 "" H 2600 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1150 6700 0    60   ~ 0
-Under glow with WS2812B LED's
+Under glow with WS2812B LED's (Optional, not laid out currently)
 Text Notes 550  1525 0    60   ~ 0
 Battery circuits, only one is used
 Text Notes 6475 7800 0    60   ~ 0
@@ -2071,10 +2071,11 @@ $Comp
 L Connector:USB_C_Receptacle J2
 U 1 1 5A272DE7
 P 15500 8500
-F 0 "J2" H 15100 9950 50  0000 L CNN
-F 1 "USB_C_Receptacle" H 15900 9950 50  0000 R CNN
-F 2 "Extra:USB_C_Receptacle_JAE_DX07B024XJ1" H 15650 8500 50  0001 C CNN
+F 0 "J2" H 15071 8291 50  0000 R CNN
+F 1 "USB_C_Receptacle" H 15071 8200 50  0000 R CNN
+F 2 "Extra:USB_C_Receptacle_JAE_DX07B024XJ1_cuts" H 15650 8500 50  0001 C CNN
 F 3 "" H 15650 8500 50  0001 C CNN
+F 4 "670-2849-1-ND" H 15500 8500 50  0001 C CNN "DigiKey"
 	1    15500 8500
 	-1   0    0    -1  
 $EndComp
@@ -2113,8 +2114,6 @@ Text Label 11550 8200 2    60   ~ 0
 USB_L_D+
 Text Label 11550 8100 2    60   ~ 0
 USB_L_D-
-Text Label 14475 8200 2    60   ~ 0
-USB_R_D+
 Text Label 14475 8100 2    60   ~ 0
 USB_R_D-
 $Comp
@@ -2303,8 +2302,6 @@ Wire Wire Line
 Connection ~ 4700 2000
 Wire Wire Line
 	12750 4500 12750 5025
-Wire Wire Line
-	12825 4500 12750 4500
 Wire Notes Line
 	4500 1550 550  1550
 Wire Notes Line
@@ -2385,8 +2382,6 @@ Wire Notes Line
 Wire Wire Line
 	12700 6100 12700 6650
 Wire Wire Line
-	11800 4400 12825 4400
-Wire Wire Line
 	11775 5100 11775 5300
 Connection ~ 11775 5300
 $Comp
@@ -2413,8 +2408,6 @@ F 3 "" H 11675 7500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11400 7500 11525 7500
-Wire Wire Line
-	12025 7500 11825 7500
 $Comp
 L power1:+5V #PWR081
 U 1 1 5A4C8D66
@@ -2441,8 +2434,6 @@ F 3 "" H 14550 7500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14275 7500 14400 7500
-Wire Wire Line
-	14900 7500 14700 7500
 $Comp
 L Tag-Connect:TC2030-IDC J3
 U 1 1 5A4D5045
@@ -2511,10 +2502,6 @@ Wire Wire Line
 	2650 5050 2650 5125
 Wire Wire Line
 	3175 3600 3425 3600
-Wire Wire Line
-	12025 7200 12025 7500
-Wire Wire Line
-	14900 7200 14900 7500
 Wire Wire Line
 	3150 4375 3150 4275
 Connection ~ 3150 4375
@@ -2714,12 +2701,6 @@ Wire Wire Line
 Connection ~ 13450 4050
 Wire Wire Line
 	13450 4050 13650 4050
-NoConn ~ 14100 4450
-NoConn ~ 14100 4550
-Wire Wire Line
-	14100 4450 14050 4450
-Wire Wire Line
-	14100 4550 14050 4550
 Wire Wire Line
 	14050 4750 14350 4750
 Wire Wire Line
@@ -3549,8 +3530,9 @@ U 1 1 5A27871E
 P 12650 8500
 F 0 "J1" H 12250 9950 50  0000 L CNN
 F 1 "USB_C_Receptacle" H 13050 9950 50  0000 R CNN
-F 2 "Extra:USB_C_Receptacle_JAE_DX07B024XJ1" H 12800 8500 50  0001 C CNN
+F 2 "Extra:USB_C_Receptacle_JAE_DX07B024XJ1_cuts" H 12800 8500 50  0001 C CNN
 F 3 "" H 12800 8500 50  0001 C CNN
+F 4 "670-2849-1-ND" H 12650 8500 50  0001 C CNN "DigiKey"
 	1    12650 8500
 	-1   0    0    -1  
 $EndComp
@@ -3632,10 +3614,6 @@ Connection ~ 4025 8125
 Wire Wire Line
 	8050 3600 8050 3550
 Wire Wire Line
-	12025 7500 12050 7500
-Connection ~ 12025 7500
-Connection ~ 14900 7500
-Wire Wire Line
 	13350 6850 13350 6900
 Wire Wire Line
 	13350 6900 13400 6900
@@ -3654,4 +3632,16 @@ Wire Wire Line
 	4250 2000 4700 2000
 NoConn ~ 5550 1900
 NoConn ~ 5550 2250
+Wire Wire Line
+	12750 4500 12850 4500
+Wire Wire Line
+	11800 4400 12850 4400
+NoConn ~ 14050 4450
+NoConn ~ 14050 4550
+Text Label 14475 8200 2    60   ~ 0
+USB_R_D+
+Wire Wire Line
+	14900 7500 14700 7500
+Wire Wire Line
+	12050 7500 11825 7500
 $EndSCHEMATC
