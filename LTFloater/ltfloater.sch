@@ -3634,12 +3634,12 @@ F 3 "" H 9400 10150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push K14b1
+L Switch:SW_Push K13b1
 U 1 1 614D220E
 P 9400 8650
-F 0 "K14b1" H 9450 8750 50  0000 L CNN
+F 0 "K13b1" H 9450 8750 50  0000 L CNN
 F 1 "K13b" H 9400 8590 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 9400 8850 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_2.00u_Plate" H 9400 8850 50  0001 C CNN
 F 3 "" H 9400 8850 50  0001 C CNN
 	1    9400 8650
 	-1   0    0    -1  
@@ -3664,17 +3664,6 @@ F 1 "MountingHole" H 6725 7005 50  0000 L CNN
 F 2 "MountingHole:MountingHole_5mm" H 6625 7050 50  0001 C CNN
 F 3 "~" H 6625 7050 50  0001 C CNN
 	1    6625 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 614D51D1
-P 7375 7050
-F 0 "H4" H 7475 7096 50  0000 L CNN
-F 1 "MountingHole" H 7475 7005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_5mm" H 7375 7050 50  0001 C CNN
-F 3 "~" H 7375 7050 50  0001 C CNN
-	1    7375 7050
 	1    0    0    -1  
 $EndComp
 $Comp
