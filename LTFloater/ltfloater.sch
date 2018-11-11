@@ -515,17 +515,6 @@ F 3 "" H 7800 8300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push K2
-U 1 1 5A1C1390
-P 8200 8100
-F 0 "K2" H 8250 8200 50  0000 L CNN
-F 1 "K02" H 8200 8040 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 8200 8300 50  0001 C CNN
-F 3 "" H 8200 8300 50  0001 C CNN
-	1    8200 8100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D_2
 U 1 1 5A1C1396
 P 8400 8300
@@ -535,17 +524,6 @@ F 2 "Diode_SMD:D_SOD-123" H 8400 8300 50  0001 C CNN
 F 3 "" H 8400 8300 50  0001 C CNN
 	1    8400 8300
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push K3
-U 1 1 5A1C146C
-P 8800 8100
-F 0 "K3" H 8850 8200 50  0000 L CNN
-F 1 "K03" H 8800 8040 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 8800 8300 50  0001 C CNN
-F 3 "" H 8800 8300 50  0001 C CNN
-	1    8800 8100
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:D D_3
@@ -625,17 +603,6 @@ F 3 "" H 7800 9000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push K12
-U 1 1 5A1C39F1
-P 8200 8800
-F 0 "K12" H 8250 8900 50  0000 L CNN
-F 1 "K12" H 8200 8740 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 8200 9000 50  0001 C CNN
-F 3 "" H 8200 9000 50  0001 C CNN
-	1    8200 8800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D12
 U 1 1 5A1C39F7
 P 8400 9000
@@ -645,17 +612,6 @@ F 2 "Diode_SMD:D_SOD-123" H 8400 9000 50  0001 C CNN
 F 3 "" H 8400 9000 50  0001 C CNN
 	1    8400 9000
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push K13
-U 1 1 5A1C39FD
-P 8800 8800
-F 0 "K13" H 8850 8900 50  0000 L CNN
-F 1 "K13" H 8800 8740 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 8800 9000 50  0001 C CNN
-F 3 "" H 8800 9000 50  0001 C CNN
-	1    8800 8800
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D13
@@ -713,17 +669,6 @@ F 3 "" H 7150 9600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push K21
-U 1 1 5A1C753F
-P 7600 9400
-F 0 "K21" H 7650 9500 50  0000 L CNN
-F 1 "K21" H 7600 9340 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 7600 9600 50  0001 C CNN
-F 3 "" H 7600 9600 50  0001 C CNN
-	1    7600 9400
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:D D21
 U 1 1 5A1C7545
 P 7800 9600
@@ -733,17 +678,6 @@ F 2 "Diode_SMD:D_SOD-123" H 7800 9600 50  0001 C CNN
 F 3 "" H 7800 9600 50  0001 C CNN
 	1    7800 9600
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push K22
-U 1 1 5A1C754B
-P 8200 9400
-F 0 "K22" H 8250 9500 50  0000 L CNN
-F 1 "K22" H 8200 9340 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 8200 9600 50  0001 C CNN
-F 3 "" H 8200 9600 50  0001 C CNN
-	1    8200 9400
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:D D22
@@ -777,17 +711,6 @@ F 2 "Diode_SMD:D_SOD-123" H 9000 9600 50  0001 C CNN
 F 3 "" H 9000 9600 50  0001 C CNN
 	1    9000 9600
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push K24
-U 1 1 5A1C7563
-P 9400 9400
-F 0 "K24" H 9450 9500 50  0000 L CNN
-F 1 "K24" H 9400 9340 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 9400 9600 50  0001 C CNN
-F 3 "" H 9400 9600 50  0001 C CNN
-	1    9400 9400
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:D D24
@@ -2238,17 +2161,6 @@ Text Label 11800 2900 2    60   ~ 0
 USB_SEL
 Text Label 8300 4950 2    60   ~ 0
 USB_SEL
-$Comp
-L Switch:SW_Push K30
-U 1 1 5A4B4B4C
-P 6950 10150
-F 0 "K30" H 7000 10250 50  0000 L CNN
-F 1 "K30" H 6950 10090 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 6950 10350 50  0001 C CNN
-F 3 "" H 6950 10350 50  0001 C CNN
-	1    6950 10150
-	1    0    0    -1  
-$EndComp
 Text Notes 11550 9475 0    60   ~ 0
 Temporary\nHack
 Text Notes 14425 9475 0    60   ~ 0
@@ -2514,28 +2426,6 @@ F 1 "K31" H 7600 9890 50  0001 C CNN
 F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_2.00u_Plate" H 7600 10150 50  0001 C CNN
 F 3 "" H 7600 10150 50  0001 C CNN
 	1    7600 9950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K34b1
-U 1 1 5BD34E70
-P 9400 9950
-F 0 "K34b1" H 9450 10050 50  0000 L CNN
-F 1 "K34" H 9400 9890 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_2.00u_Plate" H 9400 10150 50  0001 C CNN
-F 3 "" H 9400 10150 50  0001 C CNN
-	1    9400 9950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push K14b1
-U 1 1 5BEBBC3C
-P 9400 8650
-F 0 "K14b1" H 9450 8750 50  0000 L CNN
-F 1 "K14" H 9400 8590 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_2.00u_Plate" H 9400 8850 50  0001 C CNN
-F 3 "" H 9400 8850 50  0001 C CNN
-	1    9400 8650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3644,4 +3534,158 @@ Wire Wire Line
 	14900 7500 14700 7500
 Wire Wire Line
 	12050 7500 11825 7500
+$Comp
+L Switch:SW_Push K30
+U 1 1 613A9BFD
+P 6950 10150
+F 0 "K30" H 7000 10250 50  0000 L CNN
+F 1 "K30" H 6950 10090 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 6950 10350 50  0001 C CNN
+F 3 "" H 6950 10350 50  0001 C CNN
+	1    6950 10150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K21
+U 1 1 613AA348
+P 7600 9400
+F 0 "K21" H 7650 9500 50  0000 L CNN
+F 1 "K21" H 7600 9340 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 7600 9600 50  0001 C CNN
+F 3 "" H 7600 9600 50  0001 C CNN
+	1    7600 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K22
+U 1 1 5A1C754B
+P 8200 9400
+F 0 "K22" H 8250 9500 50  0000 L CNN
+F 1 "K22" H 8200 9340 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 8200 9600 50  0001 C CNN
+F 3 "" H 8200 9600 50  0001 C CNN
+	1    8200 9400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K12
+U 1 1 613ABA6C
+P 8200 8800
+F 0 "K12" H 8250 8900 50  0000 L CNN
+F 1 "K12" H 8200 8740 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 8200 9000 50  0001 C CNN
+F 3 "" H 8200 9000 50  0001 C CNN
+	1    8200 8800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K2
+U 1 1 613ABB9A
+P 8200 8100
+F 0 "K2" H 8250 8200 50  0000 L CNN
+F 1 "K02" H 8200 8040 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 8200 8300 50  0001 C CNN
+F 3 "" H 8200 8300 50  0001 C CNN
+	1    8200 8100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K13
+U 1 1 613AC0CB
+P 8800 8800
+F 0 "K13" H 8850 8900 50  0000 L CNN
+F 1 "K13" H 8800 8740 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 8800 9000 50  0001 C CNN
+F 3 "" H 8800 9000 50  0001 C CNN
+	1    8800 8800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K3
+U 1 1 613AC1FD
+P 8800 8100
+F 0 "K3" H 8850 8200 50  0000 L CNN
+F 1 "K03" H 8800 8040 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 8800 8300 50  0001 C CNN
+F 3 "" H 8800 8300 50  0001 C CNN
+	1    8800 8100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K24
+U 1 1 6143B943
+P 9400 9400
+F 0 "K24" H 9450 9500 50  0000 L CNN
+F 1 "K24" H 9400 9340 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 9400 9600 50  0001 C CNN
+F 3 "" H 9400 9600 50  0001 C CNN
+	1    9400 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K34b1
+U 1 1 614CB59C
+P 9400 9950
+F 0 "K34b1" H 9450 10050 50  0000 L CNN
+F 1 "K33b" H 9400 9890 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 9400 10150 50  0001 C CNN
+F 3 "" H 9400 10150 50  0001 C CNN
+	1    9400 9950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K14b1
+U 1 1 614D220E
+P 9400 8650
+F 0 "K14b1" H 9450 8750 50  0000 L CNN
+F 1 "K13b" H 9400 8590 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_Plate" H 9400 8850 50  0001 C CNN
+F 3 "" H 9400 8850 50  0001 C CNN
+	1    9400 8650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 614D46D6
+P 6625 6700
+F 0 "H1" H 6725 6746 50  0000 L CNN
+F 1 "MountingHole" H 6725 6655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5mm" H 6625 6700 50  0001 C CNN
+F 3 "~" H 6625 6700 50  0001 C CNN
+	1    6625 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 614D5069
+P 6625 7050
+F 0 "H2" H 6725 7096 50  0000 L CNN
+F 1 "MountingHole" H 6725 7005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5mm" H 6625 7050 50  0001 C CNN
+F 3 "~" H 6625 7050 50  0001 C CNN
+	1    6625 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 614D51D1
+P 7375 7050
+F 0 "H4" H 7475 7096 50  0000 L CNN
+F 1 "MountingHole" H 7475 7005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5mm" H 7375 7050 50  0001 C CNN
+F 3 "~" H 7375 7050 50  0001 C CNN
+	1    7375 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 614D5339
+P 7375 6725
+F 0 "H3" H 7475 6771 50  0000 L CNN
+F 1 "MountingHole" H 7475 6680 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5mm" H 7375 6725 50  0001 C CNN
+F 3 "~" H 7375 6725 50  0001 C CNN
+	1    7375 6725
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
