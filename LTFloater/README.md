@@ -1,6 +1,6 @@
-# γ-split (prototype)
+# LTFloater (prototype)
 
-![Image of gamma split PCB](https://rawgit.com/ahtn/keyboard_pcb/master/gamma_split/gamma_split.png)
+![Image of LTFloater PCB](https://rawgit.com/LovesTha/keyboard_pcb/master/LTFloater/3d Pic.png)
 
 ## License
 
