@@ -1,6 +1,6 @@
 # LTFloater (prototype)
 
-![Image of LTFloater PCB](https://rawgit.com/LovesTha/keyboard_pcb/master/LTFloater/3d_Pic.png)
+![Image of LTFloater PCB](https://github.com/LovesTha/keyboard_pcb/raw/master/LTFloater/3D_Pic.png)
 
 ## License
 
