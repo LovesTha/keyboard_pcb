@@ -838,7 +838,7 @@ Text Label 10250 8950 0    60   ~ 0
 ROW1
 Text Label 10250 9550 0    60   ~ 0
 ROW2
-Text Label 10250 10675 0    60   ~ 0
+Text Label 10050 10675 0    60   ~ 0
 ROW3
 $Comp
 L microchip:MCP1700 U3
@@ -3702,8 +3702,6 @@ Connection ~ 9450 8550
 Wire Wire Line
 	9900 9550 9900 9500
 Wire Wire Line
-	9900 9700 9900 9900
-Wire Wire Line
 	9500 9900 9450 9900
 Wire Wire Line
 	9500 9700 9450 9700
@@ -3999,7 +3997,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 9150 9900 9200
 Wire Wire Line
-	6750 10100 6750 10325
+	6750 10100 6750 10175
 Connection ~ 6750 10100
 Wire Wire Line
 	7400 10100 7400 10325
@@ -4061,4 +4059,154 @@ Wire Wire Line
 	2600 6875 2750 6875
 Wire Wire Line
 	2750 6775 2600 6775
+$Comp
+L Device:Rotary_Encoder_Switch SW1
+U 1 1 5C4A640A
+P 6250 10550
+F 0 "SW1" V 6296 10320 50  0000 R CNN
+F 1 "Rotary_Encoder_Switch" V 6205 10320 50  0000 R CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" H 6100 10710 50  0001 C CNN
+F 3 "~" H 6250 10810 50  0001 C CNN
+	1    6250 10550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW3
+U 1 1 5C4A84BC
+P 10400 10150
+F 0 "SW3" V 10446 9920 50  0000 R CNN
+F 1 "Rotary_Encoder_Switch" V 10355 9920 50  0000 R CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" H 10250 10310 50  0001 C CNN
+F 3 "~" H 10400 10410 50  0001 C CNN
+	1    10400 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 10100 6300 10200
+Connection ~ 6300 10100
+Connection ~ 6750 10175
+Wire Wire Line
+	6750 10175 6750 10325
+Wire Wire Line
+	10300 9800 10300 9850
+Wire Wire Line
+	9900 9700 9900 9725
+Wire Wire Line
+	9450 10100 9450 10175
+Wire Wire Line
+	9450 10175 10050 10175
+Connection ~ 9450 10100
+Wire Wire Line
+	9450 10175 9450 10300
+Wire Wire Line
+	9450 10300 10125 10300
+Wire Wire Line
+	10125 10300 10125 10500
+Wire Wire Line
+	10125 10500 10400 10500
+Wire Wire Line
+	10400 10500 10400 10450
+Connection ~ 9450 10175
+Wire Wire Line
+	6600 10200 6600 10950
+Wire Wire Line
+	6600 10950 6250 10950
+Wire Wire Line
+	6250 10950 6250 10850
+Text Label 8700 11025 0    50   ~ 0
+D4
+Text Label 8850 11075 0    50   ~ 0
+D5
+Wire Wire Line
+	6300 10200 6350 10200
+$Comp
+L Device:D D5
+U 1 1 5CA905B3
+P 10500 10800
+F 0 "D5" V 10500 10975 50  0000 C CNN
+F 1 "D" H 10500 10700 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 10500 10800 50  0001 C CNN
+F 3 "" H 10500 10800 50  0001 C CNN
+	1    10500 10800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5CA90829
+P 10300 10825
+F 0 "D4" V 10300 11000 50  0000 C CNN
+F 1 "D" H 10300 10725 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 10300 10825 50  0001 C CNN
+F 3 "" H 10300 10825 50  0001 C CNN
+	1    10300 10825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5CA9096F
+P 6150 11025
+F 0 "D2" V 6150 11200 50  0000 C CNN
+F 1 "D" H 6150 10925 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6150 11025 50  0001 C CNN
+F 3 "" H 6150 11025 50  0001 C CNN
+	1    6150 11025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5CA90B81
+P 6350 11025
+F 0 "D3" V 6350 11200 50  0000 C CNN
+F 1 "D" H 6350 10925 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6350 11025 50  0001 C CNN
+F 3 "" H 6350 11025 50  0001 C CNN
+	1    6350 11025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 10850 6150 10875
+Wire Wire Line
+	6350 10850 6350 10875
+Wire Wire Line
+	10300 10450 10300 10675
+Wire Wire Line
+	10500 10450 10500 10650
+Wire Wire Line
+	10500 10950 10500 11075
+Wire Wire Line
+	10300 10975 10300 11025
+Wire Wire Line
+	6350 11175 6600 11175
+Wire Wire Line
+	6600 11175 6600 11075
+Wire Wire Line
+	6600 11075 10500 11075
+Wire Wire Line
+	6150 11175 6150 11200
+Wire Wire Line
+	6150 11200 6775 11200
+Wire Wire Line
+	6775 11200 6775 11025
+Wire Wire Line
+	6775 11025 10300 11025
+Wire Wire Line
+	10500 9725 9900 9725
+Wire Wire Line
+	10500 9725 10500 9850
+Connection ~ 9900 9725
+Wire Wire Line
+	10050 9800 10300 9800
+Wire Wire Line
+	10050 9800 10050 10175
+Wire Wire Line
+	9900 9725 9900 9900
+Wire Wire Line
+	6150 10175 6750 10175
+Wire Wire Line
+	6150 10175 6150 10250
+Wire Wire Line
+	6350 10250 6350 10200
+Connection ~ 6350 10200
+Wire Wire Line
+	6350 10200 6600 10200
 $EndSCHEMATC
