@@ -4065,7 +4065,7 @@ U 1 1 5C4A640A
 P 6250 10550
 F 0 "SW1" V 6296 10320 50  0000 R CNN
 F 1 "Rotary_Encoder_Switch" V 6205 10320 50  0000 R CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" H 6100 10710 50  0001 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" H 6100 10710 50  0001 C CNN
 F 3 "~" H 6250 10810 50  0001 C CNN
 	1    6250 10550
 	0    -1   -1   0   
@@ -4076,7 +4076,7 @@ U 1 1 5C4A84BC
 P 10400 10150
 F 0 "SW3" V 10446 9920 50  0000 R CNN
 F 1 "Rotary_Encoder_Switch" V 10355 9920 50  0000 R CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" H 10250 10310 50  0001 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" H 10250 10310 50  0001 C CNN
 F 3 "~" H 10400 10410 50  0001 C CNN
 	1    10400 10150
 	0    -1   -1   0   
