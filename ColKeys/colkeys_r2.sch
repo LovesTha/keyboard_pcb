@@ -1,0 +1,559 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:D D0
+U 1 1 5A1C368B
+P 7900 8300
+F 0 "D0" V 7900 8475 50  0000 C CNN
+F 1 "D" H 7900 8200 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H 7900 8300 50  0001 C CNN
+F 3 "" H 7900 8300 50  0001 C CNN
+	1    7900 8300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5A1C3A0F
+P 7900 9000
+F 0 "D1" V 7900 9175 50  0000 C CNN
+F 1 "D" H 7900 8900 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H 7900 9000 50  0001 C CNN
+F 3 "" H 7900 9000 50  0001 C CNN
+	1    7900 9000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5A1C7569
+P 7900 9600
+F 0 "D2" V 7900 9775 50  0000 C CNN
+F 1 "D" H 7900 9500 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H 7900 9600 50  0001 C CNN
+F 3 "" H 7900 9600 50  0001 C CNN
+	1    7900 9600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push K3
+U 1 1 5A1C75AB
+P 7700 10150
+F 0 "K3" H 7750 10250 50  0000 L CNN
+F 1 "K34" H 7700 10090 50  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-nosilk-flip" H 7700 10350 50  0001 C CNN
+F 3 "" H 7700 10350 50  0001 C CNN
+	1    7700 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5A1C75B1
+P 7900 10350
+F 0 "D3" V 7900 10525 50  0000 C CNN
+F 1 "D" H 7900 10250 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H 7900 10350 50  0001 C CNN
+F 3 "" H 7900 10350 50  0001 C CNN
+	1    7900 10350
+	0    -1   -1   0   
+$EndComp
+Text Notes 7200 7500 0    60   ~ 0
+Key switch matrix
+Wire Wire Line
+	7900 8450 7900 8500
+Connection ~ 7900 8500
+Wire Wire Line
+	7900 8500 8050 8500
+Wire Wire Line
+	7300 8450 7300 8500
+Wire Wire Line
+	7500 8100 7450 8100
+Wire Wire Line
+	7300 8500 7900 8500
+Wire Wire Line
+	7900 9200 7900 9150
+Wire Wire Line
+	8050 9200 7900 9200
+Connection ~ 7900 9200
+Wire Wire Line
+	7300 9150 7300 9200
+Wire Wire Line
+	7300 9200 7900 9200
+Wire Wire Line
+	7500 8800 7450 8800
+Wire Wire Line
+	7900 9800 7900 9750
+Wire Wire Line
+	8050 9800 7900 9800
+Connection ~ 7900 9800
+Wire Wire Line
+	8050 10550 7900 10550
+Wire Wire Line
+	7900 10150 7900 10200
+Wire Wire Line
+	7500 10150 7450 10150
+Wire Wire Line
+	7450 8800 7450 9400
+Wire Wire Line
+	7500 9400 7450 9400
+Connection ~ 7450 9400
+Wire Wire Line
+	7300 9750 7300 9800
+Wire Wire Line
+	7300 9800 7900 9800
+Wire Wire Line
+	7900 9400 7900 9450
+Wire Wire Line
+	7300 10500 7300 10550
+Wire Wire Line
+	7900 10500 7900 10550
+Connection ~ 7900 10550
+Wire Wire Line
+	7900 10550 7300 10550
+Connection ~ 7450 8100
+$Comp
+L keebio:ProMicro U1
+U 1 1 5E18243D
+P 4900 9150
+F 0 "U1" H 4900 9987 60  0000 C CNN
+F 1 "ProMicro" H 4900 9881 60  0000 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro-ZigZag" V 5950 6650 60  0001 C CNN
+F 3 "" V 5950 6650 60  0001 C CNN
+	1    4900 9150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 9100 0    50   Input ~ 0
+SDA
+Text GLabel 4150 9200 0    50   Input ~ 0
+Row0
+Text GLabel 4150 9400 0    50   Input ~ 0
+Row1
+Text GLabel 4150 9500 0    50   Input ~ 0
+Row2
+Text GLabel 4150 9600 0    50   Input ~ 0
+Row3
+Text GLabel 4150 9700 0    50   Input ~ 0
+Row4
+Text GLabel 6300 9200 2    50   Input ~ 0
+Col0
+Text GLabel 6300 9300 2    50   Input ~ 0
+Col1
+Text GLabel 6300 9400 2    50   Input ~ 0
+Col2
+Text GLabel 6300 9500 2    50   Input ~ 0
+Col3
+Text GLabel 6300 9600 2    50   Input ~ 0
+Col4
+Text GLabel 6300 9700 2    50   Input ~ 0
+Col5
+Wire Wire Line
+	4150 9100 4200 9100
+Wire Wire Line
+	4200 9200 4150 9200
+Wire Wire Line
+	4150 9400 4200 9400
+Wire Wire Line
+	4200 9500 4150 9500
+Wire Wire Line
+	4150 9600 4200 9600
+Wire Wire Line
+	4150 9700 4200 9700
+$Comp
+L power:GND #PWR0101
+U 1 1 5E1B664C
+P 5650 8700
+F 0 "#PWR0101" H 5650 8450 50  0001 C CNN
+F 1 "GND" V 5655 8572 50  0000 R CNN
+F 2 "" H 5650 8700 50  0001 C CNN
+F 3 "" H 5650 8700 50  0001 C CNN
+	1    5650 8700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E1B6788
+P 4150 8800
+F 0 "#PWR0102" H 4150 8550 50  0001 C CNN
+F 1 "GND" V 4155 8672 50  0000 R CNN
+F 2 "" H 4150 8800 50  0001 C CNN
+F 3 "" H 4150 8800 50  0001 C CNN
+	1    4150 8800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5E1B68C4
+P 4150 8900
+F 0 "#PWR0103" H 4150 8650 50  0001 C CNN
+F 1 "GND" V 4155 8772 50  0000 R CNN
+F 2 "" H 4150 8900 50  0001 C CNN
+F 3 "" H 4150 8900 50  0001 C CNN
+	1    4150 8900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 5E1B69E1
+P 5650 8900
+F 0 "#PWR0104" H 5650 8750 50  0001 C CNN
+F 1 "VCC" V 5665 9028 50  0000 L CNN
+F 2 "" H 5650 8900 50  0001 C CNN
+F 3 "" H 5650 8900 50  0001 C CNN
+	1    5650 8900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 8700 5650 8700
+Wire Wire Line
+	5600 8900 5650 8900
+Wire Wire Line
+	4150 8800 4200 8800
+Wire Wire Line
+	4200 8900 4150 8900
+Text GLabel 8050 8500 2    50   Input ~ 0
+Row0
+Text GLabel 8050 9200 2    50   Input ~ 0
+Row1
+Text GLabel 8050 9800 2    50   Input ~ 0
+Row2
+Text GLabel 8050 10550 2    50   Input ~ 0
+Row3
+$Comp
+L Connector_Generic:Conn_01x06 JC1
+U 1 1 5E1CE647
+P 5900 10100
+F 0 "JC1" V 5773 10380 50  0000 L CNN
+F 1 "Conn_01x06" V 5864 10380 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical" H 5900 10100 50  0001 C CNN
+F 3 "~" H 5900 10100 50  0001 C CNN
+	1    5900 10100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 9200 6300 9200
+Wire Wire Line
+	5600 9300 6100 9300
+Wire Wire Line
+	6100 9900 6100 9300
+Connection ~ 6100 9300
+Wire Wire Line
+	6100 9300 6300 9300
+Wire Wire Line
+	5600 9400 6000 9400
+Wire Wire Line
+	5600 9500 5900 9500
+Wire Wire Line
+	5600 9600 5800 9600
+Wire Wire Line
+	5600 9700 5700 9700
+Connection ~ 6000 9400
+Wire Wire Line
+	6000 9400 6300 9400
+Wire Wire Line
+	5900 9900 5900 9500
+Connection ~ 5900 9500
+Wire Wire Line
+	5900 9500 6300 9500
+Connection ~ 5800 9600
+Wire Wire Line
+	5800 9600 6300 9600
+Wire Wire Line
+	5700 9900 5700 9700
+Connection ~ 5700 9700
+Wire Wire Line
+	5700 9700 6300 9700
+Wire Wire Line
+	5800 9600 5800 9900
+Wire Wire Line
+	6000 9400 6000 9900
+$Comp
+L Connector_Generic:Conn_01x01 R0
+U 1 1 5E1DC9BB
+P 7100 8450
+F 0 "R0" H 7020 8225 50  0000 C CNN
+F 1 "Conn_01x01" H 7020 8316 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 7100 8450 50  0001 C CNN
+F 3 "~" H 7100 8450 50  0001 C CNN
+	1    7100 8450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 R1
+U 1 1 5E1DCA8F
+P 7100 9150
+F 0 "R1" H 7020 8925 50  0000 C CNN
+F 1 "Conn_01x01" H 7020 9016 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 7100 9150 50  0001 C CNN
+F 3 "~" H 7100 9150 50  0001 C CNN
+	1    7100 9150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 R2
+U 1 1 5E1DCAE1
+P 7100 9750
+F 0 "R2" H 7020 9525 50  0000 C CNN
+F 1 "Conn_01x01" H 7020 9616 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 7100 9750 50  0001 C CNN
+F 3 "~" H 7100 9750 50  0001 C CNN
+	1    7100 9750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 R3
+U 1 1 5E1DCB29
+P 7100 10500
+F 0 "R3" H 7020 10275 50  0000 C CNN
+F 1 "Conn_01x01" H 7020 10366 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 7100 10500 50  0001 C CNN
+F 3 "~" H 7100 10500 50  0001 C CNN
+	1    7100 10500
+	-1   0    0    1   
+$EndComp
+Connection ~ 7450 8800
+Text GLabel 7400 7700 0    50   Input ~ 0
+Col0
+Wire Wire Line
+	7400 7700 7450 7700
+$Comp
+L colkeys-rescue:TRRS-keebio U2
+U 1 1 5E1E4710
+P 4150 8000
+F 0 "U2" H 4378 8303 60  0000 L CNN
+F 1 "TRRS" H 4378 8197 60  0000 L CNN
+F 2 "Keebio-Parts:TRRS-PJ-320A-dual" H 4300 8000 60  0001 C CNN
+F 3 "" H 4300 8000 60  0001 C CNN
+	1    4150 8000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 9000 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	4150 9000 4200 9000
+$Comp
+L power:GND #PWR0105
+U 1 1 5E1E5CCA
+P 3750 7600
+F 0 "#PWR0105" H 3750 7350 50  0001 C CNN
+F 1 "GND" V 3755 7472 50  0000 R CNN
+F 2 "" H 3750 7600 50  0001 C CNN
+F 3 "" H 3750 7600 50  0001 C CNN
+	1    3750 7600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 5E1E5D1D
+P 3750 7900
+F 0 "#PWR0106" H 3750 7750 50  0001 C CNN
+F 1 "VCC" V 3765 8027 50  0000 L CNN
+F 2 "" H 3750 7900 50  0001 C CNN
+F 3 "" H 3750 7900 50  0001 C CNN
+	1    3750 7900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3200 7700 0    50   Input ~ 0
+SCL
+Text GLabel 3200 7800 0    50   Input ~ 0
+SDA
+Wire Wire Line
+	3750 7600 3800 7600
+Wire Wire Line
+	3750 7900 3800 7900
+Wire Wire Line
+	7450 9400 7450 10150
+Wire Wire Line
+	7450 8100 7450 8800
+Wire Wire Line
+	7450 7700 7450 7950
+$Comp
+L Switch:SW_Push K2
+U 1 1 5E1AA1BA
+P 7700 9400
+F 0 "K2" H 7750 9500 50  0000 L CNN
+F 1 "K34" H 7700 9340 50  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-nosilk-flip" H 7700 9600 50  0001 C CNN
+F 3 "" H 7700 9600 50  0001 C CNN
+	1    7700 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push K1
+U 1 1 5E1AA21A
+P 7700 8800
+F 0 "K1" H 7750 8900 50  0000 L CNN
+F 1 "K34" H 7700 8740 50  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-nosilk-flip" H 7700 9000 50  0001 C CNN
+F 3 "" H 7700 9000 50  0001 C CNN
+	1    7700 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 8800 7900 8850
+$Comp
+L Switch:SW_Push K0
+U 1 1 5E1AA260
+P 7700 8100
+F 0 "K0" H 7750 8200 50  0000 L CNN
+F 1 "K34" H 7700 8040 50  0001 C CNN
+F 2 "Keebio-Parts:Hybrid_PCB_100H_Dual_hole-nosilk-flip" H 7700 8300 50  0001 C CNN
+F 3 "" H 7700 8300 50  0001 C CNN
+	1    7700 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 8100 7900 8150
+$Comp
+L Connector_Generic:Conn_01x01 Col1
+U 1 1 5E1AC3BB
+P 7250 7950
+F 0 "Col1" H 7170 7725 50  0000 C CNN
+F 1 "Conn_01x01" H 7170 7816 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 7250 7950 50  0001 C CNN
+F 3 "~" H 7250 7950 50  0001 C CNN
+	1    7250 7950
+	-1   0    0    1   
+$EndComp
+Connection ~ 7450 7950
+Wire Wire Line
+	7450 7950 7450 8100
+$Comp
+L Connector_Generic:Conn_01x01 R0_0
+U 1 1 5E1EEA1C
+P 7100 8600
+F 0 "R0_0" H 7020 8375 50  0000 C CNN
+F 1 "Conn_01x01" H 7020 8466 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 7100 8600 50  0001 C CNN
+F 3 "~" H 7100 8600 50  0001 C CNN
+	1    7100 8600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 R11
+U 1 1 5E1EEA84
+P 7100 9300
+F 0 "R11" H 7020 9075 50  0000 C CNN
+F 1 "Conn_01x01" H 7020 9166 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 7100 9300 50  0001 C CNN
+F 3 "~" H 7100 9300 50  0001 C CNN
+	1    7100 9300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 R22
+U 1 1 5E1EEAD0
+P 7100 9900
+F 0 "R22" H 7020 9675 50  0000 C CNN
+F 1 "Conn_01x01" H 7020 9766 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 7100 9900 50  0001 C CNN
+F 3 "~" H 7100 9900 50  0001 C CNN
+	1    7100 9900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 R33
+U 1 1 5E1EEB08
+P 7100 10650
+F 0 "R33" H 7020 10425 50  0000 C CNN
+F 1 "Conn_01x01" H 7020 10516 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 7100 10650 50  0001 C CNN
+F 3 "~" H 7100 10650 50  0001 C CNN
+	1    7100 10650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7300 8600 7300 8500
+Connection ~ 7300 8500
+Wire Wire Line
+	7300 9300 7300 9200
+Connection ~ 7300 9200
+Wire Wire Line
+	7300 9900 7300 9800
+Connection ~ 7300 9800
+Wire Wire Line
+	7300 10650 7300 10550
+Connection ~ 7300 10550
+Wire Wire Line
+	4200 9300 3850 9300
+Wire Wire Line
+	3850 9300 3850 9850
+Wire Wire Line
+	3850 9850 5600 9850
+Wire Wire Line
+	5600 9850 5600 9900
+Text GLabel 3850 9850 0    50   Input ~ 0
+Col6
+$Comp
+L Device:R_Small R4
+U 1 1 5E223F36
+P 3300 7350
+F 0 "R4" H 3359 7396 50  0000 L CNN
+F 1 "5k" H 3359 7305 50  0000 L CNN
+F 2 "Keebio-Parts:Resistor-Compact" H 3300 7350 50  0001 C CNN
+F 3 "~" H 3300 7350 50  0001 C CNN
+	1    3300 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 5E224092
+P 3450 7350
+F 0 "R5" H 3509 7396 50  0000 L CNN
+F 1 "5k" H 3509 7305 50  0000 L CNN
+F 2 "Keebio-Parts:Resistor-Compact" H 3450 7350 50  0001 C CNN
+F 3 "~" H 3450 7350 50  0001 C CNN
+	1    3450 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0107
+U 1 1 5E22421C
+P 3300 7150
+F 0 "#PWR0107" H 3300 7000 50  0001 C CNN
+F 1 "VCC" V 3315 7277 50  0000 L CNN
+F 2 "" H 3300 7150 50  0001 C CNN
+F 3 "" H 3300 7150 50  0001 C CNN
+	1    3300 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0108
+U 1 1 5E224269
+P 3450 7150
+F 0 "#PWR0108" H 3450 7000 50  0001 C CNN
+F 1 "VCC" V 3465 7277 50  0000 L CNN
+F 2 "" H 3450 7150 50  0001 C CNN
+F 3 "" H 3450 7150 50  0001 C CNN
+	1    3450 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 7150 3300 7250
+Wire Wire Line
+	3450 7150 3450 7250
+Wire Wire Line
+	3300 7450 3300 7800
+Wire Wire Line
+	3300 7800 3200 7800
+Wire Wire Line
+	3200 7700 3450 7700
+Wire Wire Line
+	3450 7700 3450 7450
+Wire Wire Line
+	3450 7700 3800 7700
+Connection ~ 3450 7700
+Wire Wire Line
+	3300 7800 3800 7800
+Connection ~ 3300 7800
+$EndSCHEMATC
