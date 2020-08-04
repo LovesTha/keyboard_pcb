@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name MCP23018)(type Legacy)(uri /home/gareth/keyboard_pcb/Lib/2020-08-04_10-02-27/MCP23018.lib)(options "")(descr ""))
+)
