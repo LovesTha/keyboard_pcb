@@ -89,9 +89,9 @@ Text GLabel 4750 3500 0    50   Input ~ 0
 SDA
 Text GLabel 4750 3600 0    50   Input ~ 0
 Row0
-Text GLabel 4750 3800 0    50   Input ~ 0
+Text GLabel 4750 3700 0    50   Input ~ 0
 Row1
-Text GLabel 4750 3900 0    50   Input ~ 0
+Text GLabel 4750 3800 0    50   Input ~ 0
 Row2
 Text GLabel 6900 3600 2    50   Input ~ 0
 Col0
@@ -978,22 +978,22 @@ U 1 1 5F476A7D
 P 4450 4850
 F 0 "U3" H 5750 5237 60  0000 C CNN
 F 1 "MCP23018-E_SP" H 5750 5131 60  0000 C CNN
-F 2 "SPDIP28_300MC_MCH" H 5750 5090 60  0001 C CNN
+F 2 "Digi:MCP23018" H 5750 5090 60  0001 C CNN
 F 3 "" H 4450 4850 60  0000 C CNN
 	1    4450 4850
 	1    0    0    -1  
 $EndComp
-Text GLabel 7750 5050 2    50   Input ~ 0
-Col0
-Text GLabel 7750 5150 2    50   Input ~ 0
-Col1
-Text GLabel 7750 5250 2    50   Input ~ 0
-Col2
-Text GLabel 7750 5350 2    50   Input ~ 0
-Col3
-Text GLabel 7750 5450 2    50   Input ~ 0
-Col4
 Text GLabel 7750 5550 2    50   Input ~ 0
+Col0
+Text GLabel 7750 5450 2    50   Input ~ 0
+Col1
+Text GLabel 7750 5350 2    50   Input ~ 0
+Col2
+Text GLabel 7750 5250 2    50   Input ~ 0
+Col3
+Text GLabel 7750 5150 2    50   Input ~ 0
+Col4
+Text GLabel 7750 5050 2    50   Input ~ 0
 Col5
 Wire Wire Line
 	7050 5050 7750 5050
@@ -1007,11 +1007,11 @@ Wire Wire Line
 	6200 3900 6900 3900
 Wire Wire Line
 	6200 4100 6900 4100
-Text GLabel 4450 5050 0    50   Input ~ 0
+Text GLabel 4450 5350 0    50   Input ~ 0
 Row0
 Text GLabel 4450 5250 0    50   Input ~ 0
 Row1
-Text GLabel 4450 5350 0    50   Input ~ 0
+Text GLabel 4450 5150 0    50   Input ~ 0
 Row2
 Wire Wire Line
 	7050 5150 7750 5150
@@ -1101,4 +1101,10 @@ Connection ~ 12150 4700
 Wire Wire Line
 	12950 4700 12950 6150
 Connection ~ 12950 4700
+Text GLabel 4450 5050 0    50   Input ~ 0
+Row3
+Text GLabel 4750 3900 0    50   Input ~ 0
+Row3
+Wire Wire Line
+	4750 3700 4800 3700
 $EndSCHEMATC
