@@ -74,25 +74,8 @@ Wire Wire Line
 Wire Wire Line
 	8750 4700 8700 4700
 Connection ~ 8700 3400
-$Comp
-L keebio:ProMicro U1
-U 1 1 5E18243D
-P 5500 3550
-F 0 "U1" H 5500 4387 60  0000 C CNN
-F 1 "ProMicro" H 5500 4281 60  0000 C CNN
-F 2 "Keebio-Parts:ArduinoProMicro-ZigZag" V 6550 1050 60  0001 C CNN
-F 3 "" V 6550 1050 60  0001 C CNN
-	1    5500 3550
-	1    0    0    -1  
-$EndComp
 Text GLabel 4750 3500 0    50   Input ~ 0
 SDA
-Text GLabel 4750 3600 0    50   Input ~ 0
-Row0
-Text GLabel 4750 3700 0    50   Input ~ 0
-Row1
-Text GLabel 4750 3800 0    50   Input ~ 0
-Row2
 Text GLabel 6900 3600 2    50   Input ~ 0
 Col0
 Text GLabel 6900 3700 2    50   Input ~ 0
@@ -107,12 +90,6 @@ Text GLabel 6900 4100 2    50   Input ~ 0
 Col5
 Wire Wire Line
 	4750 3500 4800 3500
-Wire Wire Line
-	4800 3600 4750 3600
-Wire Wire Line
-	4750 3800 4800 3800
-Wire Wire Line
-	4800 3900 4750 3900
 Wire Wire Line
 	4750 4000 4800 4000
 Wire Wire Line
@@ -177,8 +154,6 @@ Text GLabel 8500 5100 0    50   Input ~ 0
 Row2
 Text GLabel 8500 6550 0    50   Input ~ 0
 Row3
-Wire Wire Line
-	6200 3600 6900 3600
 Connection ~ 8700 4100
 Text GLabel 8650 3000 0    50   Input ~ 0
 Col0
@@ -997,16 +972,6 @@ Text GLabel 7750 5050 2    50   Input ~ 0
 Col5
 Wire Wire Line
 	7050 5050 7750 5050
-Wire Wire Line
-	6200 3700 6900 3700
-Wire Wire Line
-	6200 3800 6900 3800
-Wire Wire Line
-	6200 4000 6900 4000
-Wire Wire Line
-	6200 3900 6900 3900
-Wire Wire Line
-	6200 4100 6900 4100
 Text GLabel 4450 5350 0    50   Input ~ 0
 Row0
 Text GLabel 4450 5250 0    50   Input ~ 0
@@ -1103,8 +1068,87 @@ Wire Wire Line
 Connection ~ 12950 4700
 Text GLabel 4450 5050 0    50   Input ~ 0
 Row3
+$Comp
+L Switch:SW_Push_45deg SW2
+U 1 1 5F35348E
+P 6750 3100
+F 0 "SW2" H 6750 3381 50  0000 C CNN
+F 1 "SW_Push_45deg" H 6750 3290 50  0000 C CNN
+F 2 "Keebio-Parts:SW_Tactile_SPST_Angled_MJTP1117" H 6750 3100 50  0001 C CNN
+F 3 "~" H 6750 3100 50  0001 C CNN
+	1    6750 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3100 6250 3000
+Wire Wire Line
+	6250 3000 6650 3000
+Connection ~ 6250 3100
+Wire Wire Line
+	6200 4100 6900 4100
+Wire Wire Line
+	6200 4000 6900 4000
+Wire Wire Line
+	6200 3900 6900 3900
+Wire Wire Line
+	6200 3800 6900 3800
+Wire Wire Line
+	6200 3700 6900 3700
+Wire Wire Line
+	6200 3600 6900 3600
+Wire Wire Line
+	6200 3200 6850 3200
+Wire Wire Line
+	4750 3700 4800 3700
 Text GLabel 4750 3900 0    50   Input ~ 0
 Row3
 Wire Wire Line
-	4750 3700 4800 3700
+	4800 3900 4750 3900
+Wire Wire Line
+	4750 3800 4800 3800
+Wire Wire Line
+	4800 3600 4750 3600
+Text GLabel 4750 3800 0    50   Input ~ 0
+Row2
+Text GLabel 4750 3700 0    50   Input ~ 0
+Row1
+Text GLabel 4750 3600 0    50   Input ~ 0
+Row0
+$Comp
+L keebio:ProMicro U1
+U 1 1 5E18243D
+P 5500 3550
+F 0 "U1" H 5500 4387 60  0000 C CNN
+F 1 "ProMicro" H 5500 4281 60  0000 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro-ZigZag" V 6550 1050 60  0001 C CNN
+F 3 "" V 6550 1050 60  0001 C CNN
+	1    5500 3550
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4450 6050 0    50   Input ~ 0
+SDA
+Text GLabel 4450 5950 0    50   Input ~ 0
+SCL
+$Comp
+L power:GND #PWR?
+U 1 1 5F91664B
+P 7050 6150
+F 0 "#PWR?" H 7050 5900 50  0001 C CNN
+F 1 "GND" V 7055 6022 50  0000 R CNN
+F 2 "" H 7050 6150 50  0001 C CNN
+F 3 "" H 7050 6150 50  0001 C CNN
+	1    7050 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F91D2FE
+P 7050 6050
+F 0 "#PWR?" H 7050 5800 50  0001 C CNN
+F 1 "GND" V 7055 5922 50  0000 R CNN
+F 2 "" H 7050 6050 50  0001 C CNN
+F 3 "" H 7050 6050 50  0001 C CNN
+	1    7050 6050
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
