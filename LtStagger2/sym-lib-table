@@ -3,4 +3,5 @@
   (lib (name "LTStagger-rescue")(type "KiCad")(uri "${KIPRJMOD}/LTStagger-rescue.kicad_sym")(options "")(descr ""))
   (lib (name "RPi Pico")(type "KiCad")(uri "/home/gareth/projects/keyboard_pcb/Lib/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
   (lib (name "PS5 joy")(type "KiCad")(uri "/home/gareth/projects/keyboard_pcb/Lib/ps5/COM-09032.kicad_sym")(options "")(descr ""))
+  (lib (name "Misc")(type "KiCad")(uri "${KIPRJMOD}/Misc.kicad_sym")(options "")(descr ""))
 )
